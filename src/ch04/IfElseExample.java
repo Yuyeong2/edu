@@ -1,6 +1,6 @@
 package ch04;
 
-public class IfelseExample {
+public class IfElseExample {
     public static void main(String[] args){
         int score = 89;
 

@@ -44,15 +44,5 @@ public class IfTest {
         } else {
             System.out.println("D");
         }
-        if (score >= 90){
-
-        } else if (score >= 80) {
-
-        } else if (score >= 70) {
-
-        } else {
-            System.out.println("D");
-        }
-
     }
 }

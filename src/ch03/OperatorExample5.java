@@ -14,7 +14,7 @@ public class OperatorExample5 {
                         //     1항       /     2항           /       3항
                         //(true or false)/true 일 때(위치 고정)/    false 일 때
 
-        //mod (나머지) - 홀수 짝수 구할 때 씀
+        //mod (%, 나머지) - 홀수 짝수 구할 때 씀
         System.out.println(10 % 2);
         System.out.println(11 % 2);
         System.out.println(12 % 2);

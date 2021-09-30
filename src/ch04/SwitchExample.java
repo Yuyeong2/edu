@@ -2,9 +2,9 @@ package ch04;
 
 public class SwitchExample {
     public static void main(String[] args) {
-        int num = (int)(Math.random() * 6) +1; //num = 1~6
+        int num = (int) (Math.random() * 6) + 1; //num = 1~6
 
-        switch(num) {   //정수, 문자열만 가능
+        switch (num) {   //정수, 문자열만 가능
             case 1:
                 System.out.println("1번이 나왔습니다.");
                 break;
