@@ -5,7 +5,7 @@ public class ContinueExample {
         for (int i=0; i<100; i++){
 
             if(i == 50 || i == 55){
-                continue; //skip(once)
+                continue; //skip(once), break 처럼 레이블 사용가능
             }
             System.out.println(i);
         }

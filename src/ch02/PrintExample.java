@@ -16,7 +16,7 @@ public class PrintExample {
         float height = 180.8f;
         char bloodType = 'A';
 
-        //홍길동의 키는 180.8cm, 나이는 17세, 혈액형은 A형이다
+        //홍길동의 키는 180.8cm, 나이는 17세, 혈액형은 A형이다.
 
         System.out.println(nm + "의 키는 " + height + "cm, 나이는 "
                 + age + "세, 혈액형은 " + bloodType + "형이다.");
