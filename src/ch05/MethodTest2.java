@@ -15,8 +15,6 @@ public class MethodTest2 {
 //            return "홀수";
 //    }
 
-
-
     public static String getOddEven(int n){
         if(n % 2 == 0){
             return "짝수";
