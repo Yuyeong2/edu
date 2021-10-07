@@ -2,23 +2,21 @@ package other;
 
 public class NumberBoxTest {
     public static void main(String[] args) {
-        NumberBox nb1 = new NumberBox(1);
-        NumberBox nb2 = new NumberBox(2);
+        NumberBox bn1 = new NumberBox(1);
+        NumberBox bn2 = new NumberBox(2);
 
-        System.out.println(nb1 == nb2);
-        System.out.println(nb1.equals(nb2));
-        System.out.println(nb1.getVal());
-        System.out.println(nb2.getVal());
+        System.out.println(bn1 == bn2);
+        System.out.println(bn1.equals(bn2));
+        System.out.println(bn1.getVal());
+        System.out.println(bn2.getVal());
 
-        System.out.println("nb1 : " + nb1);
-        System.out.println(nb1.toString());
-        System.out.println("nb2 : " + nb2);
-        System.out.println(nb2.toString());
-
+        System.out.println("bn1 : " + bn1);
+        System.out.println(bn1.toString());
+        System.out.println("bn2 : " + bn2);
+        System.out.println(bn2.toString());
 
         String str = new String("abc");
         System.out.println(str);
-
         System.out.println(str.toString());
     }
 }

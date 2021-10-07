@@ -1,12 +1,9 @@
 package other;
-
 public class NumberBox {
     private int val;
-
-    public  NumberBox(int val) {
+    public NumberBox(int val) {
         this.val = val;
     }
-
     public int getVal() {
         return this.val;
     }
@@ -14,12 +11,13 @@ public class NumberBox {
     @Override
     public boolean equals(Object obj) {
         NumberBox temp = (NumberBox)obj;
-        return  temp.val == this.val;
+        return temp.val == this.val;
     }
+
     @Override
     public String toString() {
-       // return  this.val + "";
+        //return this.val + "";
         return String.valueOf(this.val);
-      //  return Integer.toString(this.val);
+        //return Integer.toString(this.val);
     }
 }

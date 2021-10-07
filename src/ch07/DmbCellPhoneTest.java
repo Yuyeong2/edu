@@ -8,7 +8,7 @@ public class DmbCellPhoneTest {
         dcp.powerOff();
         dcp.printInfo();
         System.out.println("채널 : " + dcp.channel);
-        dcp.sendMsg("안녕~");
+        dcp.sendMsg("안녕~~~");
 
     }
 }

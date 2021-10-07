@@ -1,6 +1,6 @@
 package ch07;
 
-public class Television implements RemoteControl{
+public class Television implements RemoteControl {
     private int volume;
 
     @Override
@@ -15,14 +15,16 @@ public class Television implements RemoteControl{
 
     @Override
     public void volumeUp() {
-        if(volume < MAX_VOLUME){
-        volume++; }
+       if(volume < MAX_VOLUME) {
+            volume++;
+       }
     }
 
     @Override
     public void volumeDown() {
         if(volume > MIN_VOLUME) {
-        volume--; }
+            volume--;
+        }
     }
 
     public void volumeState() {

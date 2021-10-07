@@ -6,7 +6,7 @@ public class CarTest2 {
         car1.brand = "BMW";
         car1.nm = "320";
 
-        Car car2 = car1;
+        Car car2 = car1; //얕은 복사
 
         car1.drive();
         car1.stop();

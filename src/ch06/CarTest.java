@@ -8,6 +8,7 @@ public class CarTest {
         car.nm = "소나타";
         car.drive();
         car.stop();
+        System.out.println("car.brand : " + car.brand);
 
         Car car3 = new Car();
         car3.brand = "기아";

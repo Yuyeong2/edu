@@ -5,7 +5,7 @@ public class CellPhone extends Object {
     String color;
 
     public CellPhone() {
-        this("노트10","white");
+        this("노트10", "dddd");
     }
 
     public CellPhone(String model, String color) {
@@ -23,7 +23,7 @@ public class CellPhone extends Object {
     }
 
     void printInfo() {
-        System.out.printf("model : %s, color : %s\n", model, color);
+        System.out.printf("model : %s, color : %s", model, color);
     }
 
     void sendMsg(String msg) {

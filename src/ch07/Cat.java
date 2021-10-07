@@ -10,4 +10,6 @@ public class Cat extends Animal {
     public void eat() {
         System.out.println("고양이가 낼름낼름 먹는다.");
     }
+
+
 }
